@@ -23,13 +23,20 @@ import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 
 public class EntryActivity extends BaseActivity {
+
     private View progressBar;
     private LoadListAsyncTask loadListAsyncTask;
+    int contstpack;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_entry);
+
+        Bundle bundle = getIntent().getExtras();
+        contstpack  = bundle.getInt("contpack");
+
+
         overridePendingTransition(0, 0);
         if (getSupportActionBar() != null) {
             getSupportActionBar().hide();
@@ -41,20 +48,13 @@ public class EntryActivity extends BaseActivity {
 
     private void showStickerPack(ArrayList<StickerPack> stickerPackList) {
         progressBar.setVisibility(View.GONE);
-        if (stickerPackList.size() > 1) {
-            final Intent intent = new Intent(this, StickerPackListActivity.class);
-            intent.putParcelableArrayListExtra(StickerPackListActivity.EXTRA_STICKER_PACK_LIST_DATA, stickerPackList);
-            startActivity(intent);
-            finish();
-            overridePendingTransition(0, 0);
-        } else {
-            final Intent intent = new Intent(this, StickerPackDetailsActivity.class);
-            intent.putExtra(StickerPackDetailsActivity.EXTRA_SHOW_UP_BUTTON, false);
-            intent.putExtra(StickerPackDetailsActivity.EXTRA_STICKER_PACK_DATA, stickerPackList.get(0));
-            startActivity(intent);
-            finish();
-            overridePendingTransition(0, 0);
-        }
+        final Intent intent = new Intent(this, StickerPackDetailsActivity.class);
+        intent.putExtra(StickerPackDetailsActivity.EXTRA_SHOW_UP_BUTTON, false);
+        intent.putExtra(StickerPackDetailsActivity.EXTRA_STICKER_PACK_DATA, stickerPackList.get(contstpack));
+        startActivity(intent);
+        finish();
+        overridePendingTransition(0, 0);
+
     }
 
     private void showErrorMessage(String errorMessage) {
