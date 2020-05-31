@@ -4,9 +4,9 @@
   "sticker_packs": [
     {
       "identifier": "1",
-      "name": "Cuppy",
-      "publisher": "Jane Doe",
-      "tray_image_file": "tray_Cuppy.png",
+      "name": "Memes 1",
+      "publisher": "K7Droid",
+      "tray_image_file": "meme-icon.png",
       "image_data_version":"1",
       "avoid_cache":false,
       "publisher_email":"",
@@ -15,112 +15,84 @@
       "license_agreement_website": "",
       "stickers": [
         {
-          "image_file": "01_Cuppy_smile.webp",
+          "image_file": "meme1.webp",
           "emojis": ["☕","🙂"]
         },
         {
-          "image_file": "02_Cuppy_lol.webp",
+          "image_file": "meme2.webp",
           "emojis": ["😄","😀"]
         },
         {
-          "image_file": "03_Cuppy_rofl.webp",
+          "image_file": "meme3.webp",
           "emojis": ["😆","😂"]
         },
         {
-          "image_file": "04_Cuppy_sad.webp",
+          "image_file": "meme4.webp",
           "emojis": ["😩","😰"]
         },
         {
-          "image_file": "05_Cuppy_cry.webp",
+          "image_file": "meme5.webp",
           "emojis": ["😭","💧"]
         },
         {
-          "image_file": "06_Cuppy_love.webp",
+          "image_file": "meme6.webp",
           "emojis": ["😍","♥"]
         },
         {
-          "image_file": "07_Cuppy_hate.webp",
+          "image_file": "meme7.webp",
           "emojis": ["💔","👎"]
         },
         {
-          "image_file": "08_Cuppy_lovewithmug.webp",
+          "image_file": "meme8.webp",
           "emojis": ["😍","💑"]
         },
         {
-          "image_file": "09_Cuppy_lovewithcookie.webp",
+          "image_file": "meme9.webp",
           "emojis": ["😘","🍪"]
         },
         {
-          "image_file": "10_Cuppy_hmm.webp",
+          "image_file": "meme10.webp",
           "emojis": ["🤔","😐"]
         },
         {
-          "image_file": "11_Cuppy_upset.webp",
+          "image_file": "meme11.webp",
           "emojis": ["😱","😵"]
         },
         {
-          "image_file": "12_Cuppy_angry.webp",
+          "image_file": "meme12.webp",
           "emojis": ["😡","😠"]
         },
         {
-          "image_file": "13_Cuppy_curious.webp",
+          "image_file": "meme13.webp",
           "emojis": ["❓","🤔"]
         },
         {
-          "image_file": "14_Cuppy_weird.webp",
+          "image_file": "meme14.webp",
           "emojis": ["🌈","😜"]
         },
         {
-          "image_file": "15_Cuppy_bluescreen.webp",
+          "image_file": "meme15.webp",
           "emojis": ["💻","😩"]
         },
         {
-          "image_file": "16_Cuppy_angry.webp",
+          "image_file": "meme16.webp",
           "emojis": ["😡","😤"]
         },
         {
-          "image_file": "17_Cuppy_tired.webp",
+          "image_file": "meme17.webp",
           "emojis": ["😩","😨"]
         },
         {
-          "image_file": "18_Cuppy_workhard.webp",
+          "image_file": "meme18.webp",
           "emojis": ["💻","🌃"]
-        },
-        {
-          "image_file": "19_Cuppy_shine.webp",
-          "emojis": ["🎉","✨"]
-        },
-        {
-          "image_file": "20_Cuppy_disgusting.webp",
-          "emojis": ["🤮","👎"]
-        },
-        {
-          "image_file": "21_Cuppy_hi.webp",
-          "emojis": ["🖐","🙋"]
-        },
-        {
-          "image_file": "22_Cuppy_bye.webp",
-          "emojis": ["🖐","👋"]
-        },
-        {
-          "image_file": "23_Cuppy_greentea.webp",
-          "emojis": ["🍵","😌"]
-        },
-        {
-          "image_file": "24_Cuppy_phone.webp",
-          "emojis": ["📱","😦"]
-        },
-        {
-          "image_file": "25_Cuppy_battery.webp",
-          "emojis": ["🔋","😵"]
         }
       ]
     },
     {
       "identifier": "2",
-      "name": "Cuppy2",
-      "publisher": "Jane Doe2",
-      "tray_image_file": "tray_Cuppy.png",
+      "name": "Shrek",
+      "publisher": "K7Droid",
+      "tray_image_file": "shrek-icon.png",
       "image_data_version":"1",
       "avoid_cache":false,
       "publisher_email":"",
@@ -129,112 +101,52 @@
       "license_agreement_website": "",
       "stickers": [
         {
-          "image_file": "01_Cuppy_smile.webp",
+          "image_file": "shrek1.webp",
           "emojis": ["☕","🙂"]
         },
         {
-          "image_file": "02_Cuppy_lol.webp",
+          "image_file": "shrek2.webp",
           "emojis": ["😄","😀"]
         },
         {
-          "image_file": "03_Cuppy_rofl.webp",
+          "image_file": "shrek3.webp",
           "emojis": ["😆","😂"]
         },
         {
-          "image_file": "04_Cuppy_sad.webp",
+          "image_file": "shrek4.webp",
           "emojis": ["😩","😰"]
         },
         {
-          "image_file": "05_Cuppy_cry.webp",
+          "image_file": "shrek5.webp",
           "emojis": ["😭","💧"]
         },
         {
-          "image_file": "06_Cuppy_love.webp",
+          "image_file": "shrek6.webp",
           "emojis": ["😍","♥"]
         },
         {
-          "image_file": "07_Cuppy_hate.webp",
+          "image_file": "shrek7.webp",
           "emojis": ["💔","👎"]
         },
         {
-          "image_file": "08_Cuppy_lovewithmug.webp",
+          "image_file": "shrek8.webp",
           "emojis": ["😍","💑"]
         },
         {
-          "image_file": "09_Cuppy_lovewithcookie.webp",
+          "image_file": "shrek9.webp",
           "emojis": ["😘","🍪"]
         },
         {
-          "image_file": "10_Cuppy_hmm.webp",
+          "image_file": "shrek10.webp",
           "emojis": ["🤔","😐"]
-        },
-        {
-          "image_file": "11_Cuppy_upset.webp",
-          "emojis": ["😱","😵"]
-        },
-        {
-          "image_file": "12_Cuppy_angry.webp",
-          "emojis": ["😡","😠"]
-        },
-        {
-          "image_file": "13_Cuppy_curious.webp",
-          "emojis": ["❓","🤔"]
-        },
-        {
-          "image_file": "14_Cuppy_weird.webp",
-          "emojis": ["🌈","😜"]
-        },
-        {
-          "image_file": "15_Cuppy_bluescreen.webp",
-          "emojis": ["💻","😩"]
-        },
-        {
-          "image_file": "16_Cuppy_angry.webp",
-          "emojis": ["😡","😤"]
-        },
-        {
-          "image_file": "17_Cuppy_tired.webp",
-          "emojis": ["😩","😨"]
-        },
-        {
-          "image_file": "18_Cuppy_workhard.webp",
-          "emojis": ["💻","🌃"]
-        },
-        {
-          "image_file": "19_Cuppy_shine.webp",
-          "emojis": ["🎉","✨"]
-        },
-        {
-          "image_file": "20_Cuppy_disgusting.webp",
-          "emojis": ["🤮","👎"]
-        },
-        {
-          "image_file": "21_Cuppy_hi.webp",
-          "emojis": ["🖐","🙋"]
-        },
-        {
-          "image_file": "22_Cuppy_bye.webp",
-          "emojis": ["🖐","👋"]
-        },
-        {
-          "image_file": "23_Cuppy_greentea.webp",
-          "emojis": ["🍵","😌"]
-        },
-        {
-          "image_file": "24_Cuppy_phone.webp",
-          "emojis": ["📱","😦"]
-        },
-        {
-          "image_file": "25_Cuppy_battery.webp",
-          "emojis": ["🔋","😵"]
         }
       ]
     },
     {
       "identifier": "3",
-      "name": "Cuppy3",
-      "publisher": "Jane Doe3",
-      "tray_image_file": "tray_Cuppy.png",
+      "name": "Bob Esponja",
+      "publisher": "K7Droid",
+      "tray_image_file": "be-icon.png",
       "image_data_version":"1",
       "avoid_cache":false,
       "publisher_email":"",
@@ -243,106 +155,192 @@
       "license_agreement_website": "",
       "stickers": [
         {
-          "image_file": "01_Cuppy_smile.webp",
+          "image_file": "be1.webp",
           "emojis": ["☕","🙂"]
         },
         {
-          "image_file": "02_Cuppy_lol.webp",
+          "image_file": "be2.webp",
           "emojis": ["😄","😀"]
         },
         {
-          "image_file": "03_Cuppy_rofl.webp",
+          "image_file": "be3.webp",
           "emojis": ["😆","😂"]
         },
         {
-          "image_file": "04_Cuppy_sad.webp",
+          "image_file": "be4.webp",
           "emojis": ["😩","😰"]
         },
         {
-          "image_file": "05_Cuppy_cry.webp",
+          "image_file": "be5.webp",
           "emojis": ["😭","💧"]
         },
         {
-          "image_file": "06_Cuppy_love.webp",
+          "image_file": "be6.webp",
           "emojis": ["😍","♥"]
         },
         {
-          "image_file": "07_Cuppy_hate.webp",
+          "image_file": "be7.webp",
           "emojis": ["💔","👎"]
         },
         {
-          "image_file": "08_Cuppy_lovewithmug.webp",
+          "image_file": "be8.webp",
           "emojis": ["😍","💑"]
         },
         {
-          "image_file": "09_Cuppy_lovewithcookie.webp",
+          "image_file": "be9.webp",
           "emojis": ["😘","🍪"]
         },
         {
-          "image_file": "10_Cuppy_hmm.webp",
+          "image_file": "be10.webp",
           "emojis": ["🤔","😐"]
         },
         {
-          "image_file": "11_Cuppy_upset.webp",
+          "image_file": "be11.webp",
           "emojis": ["😱","😵"]
         },
         {
-          "image_file": "12_Cuppy_angry.webp",
+          "image_file": "be12.webp",
           "emojis": ["😡","😠"]
         },
         {
-          "image_file": "13_Cuppy_curious.webp",
+          "image_file": "be13.webp",
           "emojis": ["❓","🤔"]
         },
         {
-          "image_file": "14_Cuppy_weird.webp",
+          "image_file": "be14.webp",
           "emojis": ["🌈","😜"]
         },
         {
-          "image_file": "15_Cuppy_bluescreen.webp",
+          "image_file": "be15.webp",
           "emojis": ["💻","😩"]
         },
         {
-          "image_file": "16_Cuppy_angry.webp",
+          "image_file": "be16.webp",
           "emojis": ["😡","😤"]
         },
         {
-          "image_file": "17_Cuppy_tired.webp",
+          "image_file": "be17.webp",
           "emojis": ["😩","😨"]
         },
         {
-          "image_file": "18_Cuppy_workhard.webp",
+          "image_file": "be18.webp",
           "emojis": ["💻","🌃"]
         },
         {
-          "image_file": "19_Cuppy_shine.webp",
+          "image_file": "be19.webp",
           "emojis": ["🎉","✨"]
         },
         {
-          "image_file": "20_Cuppy_disgusting.webp",
+          "image_file": "be20.webp",
           "emojis": ["🤮","👎"]
-        },
-        {
-          "image_file": "21_Cuppy_hi.webp",
-          "emojis": ["🖐","🙋"]
-        },
-        {
-          "image_file": "22_Cuppy_bye.webp",
-          "emojis": ["🖐","👋"]
-        },
-        {
-          "image_file": "23_Cuppy_greentea.webp",
-          "emojis": ["🍵","😌"]
-        },
-        {
-          "image_file": "24_Cuppy_phone.webp",
-          "emojis": ["📱","😦"]
-        },
-        {
-          "image_file": "25_Cuppy_battery.webp",
-          "emojis": ["🔋","😵"]
         }
       ]
+    },
+    {
+      "identifier": "4",
+      "name": "Lomitos",
+      "publisher": "K7Droid",
+      "tray_image_file": "lomito-icon.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "lomito1.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "lomito2.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "lomito3.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "lomito4.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "lomito5.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "lomito6.webp",
+          "emojis": ["😍","♥"]
+        },
+        {
+          "image_file": "lomito7.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "lomito8.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "lomito9.webp",
+          "emojis": ["😘","🍪"]
+        }
+      ]
+    },
+    {
+      "identifier": "5",
+      "name": "Michis",
+      "publisher": "K7Droid",
+      "tray_image_file": "michi-icon.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "michi1.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "michi2.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "michi3.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "michi4.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "michi5.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "michi6.webp",
+          "emojis": ["😍","♥"]
+        },
+        {
+          "image_file": "michi7.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "michi8.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "michi9.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "michi10.webp",
+          "emojis": ["😘","🍪"]
+        }
+      ]
+    }
+  ]
     }
   ]
 }
