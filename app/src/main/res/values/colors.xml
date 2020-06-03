@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="colorPrimary">@android:color/transparent</color>
-    <color name="colorPrimaryDark">#3f4996</color>
-    <color name="colorAccent">#128C7E</color>
-    <color name="infoPageBackgroundColor">#EBEBEB</color>
-    <color name="actionBarArrowColor">@color/colorAccent</color>
-</resources>

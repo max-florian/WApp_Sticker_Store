@@ -1,0 +1,346 @@
+{
+  "android_play_store_link": "",
+  "ios_app_store_link": "",
+  "sticker_packs": [
+    {
+      "identifier": "1",
+      "name": "Memes 1",
+      "publisher": "K7Droid",
+      "tray_image_file": "meme-icon.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "meme1.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "meme2.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "meme3.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "meme4.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "meme5.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "meme6.webp",
+          "emojis": ["😍","♥"]
+        },
+        {
+          "image_file": "meme7.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "meme8.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "meme9.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "meme10.webp",
+          "emojis": ["🤔","😐"]
+        },
+        {
+          "image_file": "meme11.webp",
+          "emojis": ["😱","😵"]
+        },
+        {
+          "image_file": "meme12.webp",
+          "emojis": ["😡","😠"]
+        },
+        {
+          "image_file": "meme13.webp",
+          "emojis": ["❓","🤔"]
+        },
+        {
+          "image_file": "meme14.webp",
+          "emojis": ["🌈","😜"]
+        },
+        {
+          "image_file": "meme15.webp",
+          "emojis": ["💻","😩"]
+        },
+        {
+          "image_file": "meme16.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "meme17.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "meme18.webp",
+          "emojis": ["💻","🌃"]
+        }
+      ]
+    },
+    {
+      "identifier": "2",
+      "name": "Shrek",
+      "publisher": "K7Droid",
+      "tray_image_file": "shrek-icon.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "shrek1.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "shrek2.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "shrek3.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "shrek4.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "shrek5.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "shrek6.webp",
+          "emojis": ["😍","♥"]
+        },
+        {
+          "image_file": "shrek7.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "shrek8.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "shrek9.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "shrek10.webp",
+          "emojis": ["🤔","😐"]
+        }
+      ]
+    },
+    {
+      "identifier": "3",
+      "name": "Bob Esponja",
+      "publisher": "K7Droid",
+      "tray_image_file": "be-icon.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "be1.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "be2.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "be3.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "be4.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "be5.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "be6.webp",
+          "emojis": ["😍","♥"]
+        },
+        {
+          "image_file": "be7.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "be8.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "be9.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "be10.webp",
+          "emojis": ["🤔","😐"]
+        },
+        {
+          "image_file": "be11.webp",
+          "emojis": ["😱","😵"]
+        },
+        {
+          "image_file": "be12.webp",
+          "emojis": ["😡","😠"]
+        },
+        {
+          "image_file": "be13.webp",
+          "emojis": ["❓","🤔"]
+        },
+        {
+          "image_file": "be14.webp",
+          "emojis": ["🌈","😜"]
+        },
+        {
+          "image_file": "be15.webp",
+          "emojis": ["💻","😩"]
+        },
+        {
+          "image_file": "be16.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "be17.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "be18.webp",
+          "emojis": ["💻","🌃"]
+        },
+        {
+          "image_file": "be19.webp",
+          "emojis": ["🎉","✨"]
+        },
+        {
+          "image_file": "be20.webp",
+          "emojis": ["🤮","👎"]
+        }
+      ]
+    },
+    {
+      "identifier": "4",
+      "name": "Lomitos",
+      "publisher": "K7Droid",
+      "tray_image_file": "lomito-icon.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "lomito1.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "lomito2.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "lomito3.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "lomito4.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "lomito5.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "lomito6.webp",
+          "emojis": ["😍","♥"]
+        },
+        {
+          "image_file": "lomito7.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "lomito8.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "lomito9.webp",
+          "emojis": ["😘","🍪"]
+        }
+      ]
+    },
+    {
+      "identifier": "5",
+      "name": "Michis",
+      "publisher": "K7Droid",
+      "tray_image_file": "michi-icon.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "michi1.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "michi2.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "michi3.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "michi4.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "michi5.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "michi6.webp",
+          "emojis": ["😍","♥"]
+        },
+        {
+          "image_file": "michi7.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "michi8.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "michi9.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "michi10.webp",
+          "emojis": ["😘","🍪"]
+        }
+      ]
+    }
+  ]
+    }
+  ]
+}
