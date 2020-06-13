@@ -6,7 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.example.wapp_sticker_store;
+package com.max.wapp_sticker_store;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -24,20 +24,20 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 
-import static com.example.wapp_sticker_store.StickerContentProvider.ANDROID_APP_DOWNLOAD_LINK_IN_QUERY;
-import static com.example.wapp_sticker_store.StickerContentProvider.AVOID_CACHE;
-import static com.example.wapp_sticker_store.StickerContentProvider.IOS_APP_DOWNLOAD_LINK_IN_QUERY;
-import static com.example.wapp_sticker_store.StickerContentProvider.LICENSE_AGREENMENT_WEBSITE;
-import static com.example.wapp_sticker_store.StickerContentProvider.PRIVACY_POLICY_WEBSITE;
-import static com.example.wapp_sticker_store.StickerContentProvider.PUBLISHER_EMAIL;
-import static com.example.wapp_sticker_store.StickerContentProvider.PUBLISHER_WEBSITE;
-import static com.example.wapp_sticker_store.StickerContentProvider.STICKER_FILE_EMOJI_IN_QUERY;
-import static com.example.wapp_sticker_store.StickerContentProvider.STICKER_FILE_NAME_IN_QUERY;
-import static com.example.wapp_sticker_store.StickerContentProvider.STICKER_PACK_ICON_IN_QUERY;
-import static com.example.wapp_sticker_store.StickerContentProvider.STICKER_PACK_IDENTIFIER_IN_QUERY;
-import static com.example.wapp_sticker_store.StickerContentProvider.STICKER_PACK_NAME_IN_QUERY;
-import static com.example.wapp_sticker_store.StickerContentProvider.STICKER_PACK_PUBLISHER_IN_QUERY;
-import static com.example.wapp_sticker_store.StickerContentProvider.IMAGE_DATA_VERSION;
+import static com.max.wapp_sticker_store.StickerContentProvider.ANDROID_APP_DOWNLOAD_LINK_IN_QUERY;
+import static com.max.wapp_sticker_store.StickerContentProvider.AVOID_CACHE;
+import static com.max.wapp_sticker_store.StickerContentProvider.IOS_APP_DOWNLOAD_LINK_IN_QUERY;
+import static com.max.wapp_sticker_store.StickerContentProvider.LICENSE_AGREENMENT_WEBSITE;
+import static com.max.wapp_sticker_store.StickerContentProvider.PRIVACY_POLICY_WEBSITE;
+import static com.max.wapp_sticker_store.StickerContentProvider.PUBLISHER_EMAIL;
+import static com.max.wapp_sticker_store.StickerContentProvider.PUBLISHER_WEBSITE;
+import static com.max.wapp_sticker_store.StickerContentProvider.STICKER_FILE_EMOJI_IN_QUERY;
+import static com.max.wapp_sticker_store.StickerContentProvider.STICKER_FILE_NAME_IN_QUERY;
+import static com.max.wapp_sticker_store.StickerContentProvider.STICKER_PACK_ICON_IN_QUERY;
+import static com.max.wapp_sticker_store.StickerContentProvider.STICKER_PACK_IDENTIFIER_IN_QUERY;
+import static com.max.wapp_sticker_store.StickerContentProvider.STICKER_PACK_NAME_IN_QUERY;
+import static com.max.wapp_sticker_store.StickerContentProvider.STICKER_PACK_PUBLISHER_IN_QUERY;
+import static com.max.wapp_sticker_store.StickerContentProvider.IMAGE_DATA_VERSION;
 
 class StickerPackLoader {
 

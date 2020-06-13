@@ -6,7 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.example.wapp_sticker_store;
+package com.max.wapp_sticker_store;
 
 import android.content.ContentProvider;
 import android.content.ContentResolver;

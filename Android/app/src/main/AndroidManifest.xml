@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.wapp_sticker_store">
+    package="com.max.wapp_sticker_store">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
     <application
-        android:name=".StickerApplication"
+        android:name="com.max.wapp_sticker_store.StickerApplication"
         android:allowBackup="false"
         android:fullBackupContent="false"
         android:icon="@mipmap/ic_launcher"
@@ -12,41 +14,44 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.max.wapp_sticker_store.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9264039269209206~5309104874"/>
         <activity
-            android:name=".EntryActivity"
-            android:parentActivityName=".EntryActivity"
+            android:name="com.max.wapp_sticker_store.EntryActivity"
+            android:parentActivityName="com.max.wapp_sticker_store.EntryActivity"
             tools:ignore="UnusedAttribute">
             <meta-data
                 android:name="android.intent.action.PARENT_ACTIVITY"
-                android:value="com.example.wapp_sticker_store.EntryActivity" />
+                android:value="com.max.wapp_sticker_store.EntryActivity" />
         </activity>
-        <activity android:name=".StickerPackListActivity" />
+        <activity android:name="com.max.wapp_sticker_store.StickerPackListActivity" />
         <activity
-            android:name=".StickerPackDetailsActivity"
-            android:parentActivityName=".StickerPackListActivity"
+            android:name="com.max.wapp_sticker_store.StickerPackDetailsActivity"
+            android:parentActivityName="com.max.wapp_sticker_store.StickerPackListActivity"
             tools:ignore="UnusedAttribute">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.wapp_sticker_store.StickerPackListActivity" />
+                android:value="com.max.wapp_sticker_store.StickerPackListActivity" />
         </activity>
         <activity
-            android:name=".StickerPackInfoActivity"
+            android:name="com.max.wapp_sticker_store.StickerPackInfoActivity"
             android:label="@string/title_activity_sticker_pack_info"
-            android:parentActivityName=".StickerPackDetailsActivity"
+            android:parentActivityName="com.max.wapp_sticker_store.StickerPackDetailsActivity"
             tools:ignore="UnusedAttribute">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.wapp_sticker_store.StickerPackDetailsActivity" />
+                android:value="com.max.wapp_sticker_store.StickerPackDetailsActivity" />
         </activity>
 
         <provider
-            android:name=".StickerContentProvider"
+            android:name="com.max.wapp_sticker_store.StickerContentProvider"
             android:authorities="${contentProviderAuthority}"
             android:enabled="true"
             android:exported="true"

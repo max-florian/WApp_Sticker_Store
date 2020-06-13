@@ -7,8 +7,8 @@ android {
     }
     compileSdkVersion 29
     defaultConfig {
-        applicationId "com.example.wapp_sticker_store"
-        minSdkVersion 15
+        applicationId "com.max.wapp_sticker_store"
+        minSdkVersion 16
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -69,8 +69,8 @@ private void checkApplicationIdInDebug() {
     properties.load(project.rootProject.file('local.properties').newDataInputStream())
     def ignoreApplicationIdCheck = properties.getProperty('ignoreApplicationIdCheck')
     if (ignoreApplicationIdCheck == null) {
-        if (android.defaultConfig.applicationId == "com.example.wapp_sticker_store") {
-            //throw new GradleException("Your applicationId is currently com.example.wapp_sticker_store, please change your applicationId to a different string in app/build.gradle in line 10")
+        if (android.defaultConfig.applicationId == "com.max.wapp_sticker_store") {
+            //throw new GradleException("Your applicationId is currently com.max.wapp_sticker_store, please change your applicationId to a different string in app/build.gradle in line 10")
         }
     } else {
         println("application id check ignored")
@@ -81,8 +81,8 @@ private void checkApplicationIdInDebug() {
 task checkRelease {
     doLast {
         println("checkRelease")
-        if (android.defaultConfig.applicationId.startsWith("com.example")) {
-            //throw new GradleException("applicationId in defaultConfig cannot start with com.example, please change your applicationId in app/build.gradle")
+        if (android.defaultConfig.applicationId.startsWith("com.max")) {
+            //throw new GradleException("applicationId in defaultConfig cannot start with com.max, please change your applicationId in app/build.gradle")
         }
     }
 }
@@ -103,6 +103,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'com.google.android.material:material:1.1.0'
     implementation 'androidx.navigation:navigation-fragment:2.2.2'
+    implementation 'com.google.android.gms:play-services-ads:19.1.0'
     implementation 'androidx.navigation:navigation-ui:2.2.2'
     testImplementation 'junit:junit:4.13'
     androidTestImplementation 'androidx.test:runner:1.2.0'
