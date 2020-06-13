@@ -22,7 +22,7 @@
         </activity>
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-9264039269209206~5309104874"/>
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
         <activity
             android:name="com.max.wapp_sticker_store.EntryActivity"
             android:parentActivityName="com.max.wapp_sticker_store.EntryActivity"
