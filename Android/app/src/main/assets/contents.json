@@ -238,56 +238,6 @@
     },
     {
       "identifier": "4",
-      "name": "Lomitos",
-      "publisher": "K7Droid",
-      "tray_image_file": "lomito-icon.png",
-      "image_data_version":"1",
-      "avoid_cache":false,
-      "publisher_email":"",
-      "publisher_website": "",
-      "privacy_policy_website": "",
-      "license_agreement_website": "",
-      "stickers": [
-        {
-          "image_file": "lomito1.webp",
-          "emojis": ["☕","🙂"]
-        },
-        {
-          "image_file": "lomito2.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "lomito3.webp",
-          "emojis": ["😆","😂"]
-        },
-        {
-          "image_file": "lomito4.webp",
-          "emojis": ["😩","😰"]
-        },
-        {
-          "image_file": "lomito5.webp",
-          "emojis": ["😭","💧"]
-        },
-        {
-          "image_file": "lomito6.webp",
-          "emojis": ["😍","♥"]
-        },
-        {
-          "image_file": "lomito7.webp",
-          "emojis": ["💔","👎"]
-        },
-        {
-          "image_file": "lomito8.webp",
-          "emojis": ["😍","💑"]
-        },
-        {
-          "image_file": "lomito9.webp",
-          "emojis": ["😘","🍪"]
-        }
-      ]
-    },
-    {
-      "identifier": "5",
       "name": "Michis",
       "publisher": "K7Droid",
       "tray_image_file": "michi-icon.png",
@@ -336,6 +286,354 @@
         },
         {
           "image_file": "michi10.webp",
+          "emojis": ["😘","🍪"]
+        }
+      ]
+    },
+    {
+      "identifier": "5",
+      "name": "Apex",
+      "publisher": "K7Droid",
+      "tray_image_file": "apex-icon.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "apex1.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "apex2.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "apex3.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "apex4.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "apex5.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "apex6.webp",
+          "emojis": ["😍","♥"]
+        },
+        {
+          "image_file": "apex7.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "apex8.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "apex9.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "apex10.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "apex11.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "apex12.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "apex13.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "apex14.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "apex15.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "apex16.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "apex17.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "apex18.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "apex19.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "apex20.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "apex21.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "apex22.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "apex23.webp",
+          "emojis": ["😘","🍪"]
+        }
+      ]
+    },
+    {
+      "identifier": "6",
+      "name": "Drake&Josh",
+      "publisher": "K7Droid",
+      "tray_image_file": "dj-icon.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "DJ1.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "DJ2.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "DJ3.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "DJ4.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "DJ5.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "DJ6.webp",
+          "emojis": ["😍","♥"]
+        },
+        {
+          "image_file": "DJ7.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "DJ8.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "DJ9.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "DJ10.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "DJ11.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "DJ12.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "DJ13.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "DJ14.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "DJ15.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "DJ16.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "DJ17.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "DJ18.webp",
+          "emojis": ["😘","🍪"]
+        }
+      ]
+    },
+    {
+      "identifier": "7",
+      "name": "Memes 2",
+      "publisher": "K7Droid",
+      "tray_image_file": "memes2-icon.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "meme1.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "meme2.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "meme4.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "meme5.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "meme6.webp",
+          "emojis": ["😍","♥"]
+        },
+        {
+          "image_file": "meme7.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "meme8.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "meme9.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "meme10.webp",
+          "emojis": ["🤔","😐"]
+        },
+        {
+          "image_file": "meme11.webp",
+          "emojis": ["😱","😵"]
+        },
+        {
+          "image_file": "meme12.webp",
+          "emojis": ["😡","😠"]
+        },
+        {
+          "image_file": "meme13.webp",
+          "emojis": ["❓","🤔"]
+        },
+        {
+          "image_file": "meme14.webp",
+          "emojis": ["🌈","😜"]
+        },
+        {
+          "image_file": "meme15.webp",
+          "emojis": ["💻","😩"]
+        }
+      ]
+    },
+    {
+      "identifier": "8",
+      "name": "Michis 2",
+      "publisher": "K7Droid",
+      "tray_image_file": "michis2-icon.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "michi1.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "michi2.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "michi3.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "michi4.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "michi5.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "michi6.webp",
+          "emojis": ["😍","♥"]
+        },
+        {
+          "image_file": "michi7.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "michi8.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "michi9.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "michi10.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "michi11.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "michi12.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "michi13.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "michi14.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "michi15.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "michi16.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "michi17.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "michi18.webp",
           "emojis": ["😘","🍪"]
         }
       ]

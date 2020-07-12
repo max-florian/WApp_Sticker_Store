@@ -1,10 +1,13 @@
 package com.max.wapp_sticker_store;
 
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
@@ -33,6 +36,12 @@ public class MainActivity extends AppCompatActivity {
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
+        SharedPreferences prefs = getSharedPreferences("prefs",MODE_PRIVATE);
+        boolean AlInicio = prefs.getBoolean("AlInicio",true);
+        if (AlInicio) {
+            mostrarNotificacion();
+        }
+
         FloatingActionButton peticiones = findViewById(R.id.correo);
         peticiones.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,7 +61,6 @@ public class MainActivity extends AppCompatActivity {
         card_memes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Toast.makeText(MainActivity.this, "prueba APEX", Toast.LENGTH_SHORT).show();
                 Bundle bundle = new Bundle();
                 Intent intent = new Intent(MainActivity.this,EntryActivity.class);
                 bundle.putInt("contpack",0);
@@ -92,12 +100,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        CardView card_lomitos = (CardView) findViewById(R.id.cv_lomitos); // creating a CardView and assigning a value.
+        CardView card_michis = (CardView) findViewById(R.id.cv_michis); // creating a CardView and assigning a value.
 
-        card_lomitos.setOnClickListener(new View.OnClickListener() {
+        card_michis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Toast.makeText(MainActivity.this, "prueba SHREK", Toast.LENGTH_SHORT).show();
                 Bundle bundle = new Bundle();
                 Intent intent = new Intent(MainActivity.this,EntryActivity.class);
                 bundle.putInt("contpack",3);
@@ -107,12 +114,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        CardView card_michis = (CardView) findViewById(R.id.cv_michis); // creating a CardView and assigning a value.
+        CardView card_apex = (CardView) findViewById(R.id.cv_apex); // creating a CardView and assigning a value.
 
-        card_michis.setOnClickListener(new View.OnClickListener() {
+        card_apex.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Toast.makeText(MainActivity.this, "prueba SHREK", Toast.LENGTH_SHORT).show();
                 Bundle bundle = new Bundle();
                 Intent intent = new Intent(MainActivity.this,EntryActivity.class);
                 bundle.putInt("contpack",4);
@@ -121,5 +127,70 @@ public class MainActivity extends AppCompatActivity {
                 //finish();
             }
         });
+
+        CardView card_dj = (CardView) findViewById(R.id.cv_dj); // creating a CardView and assigning a value.
+
+        card_dj.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Bundle bundle = new Bundle();
+                Intent intent = new Intent(MainActivity.this,EntryActivity.class);
+                bundle.putInt("contpack",5);
+                intent.putExtras(bundle);
+                startActivity(intent);
+                //finish();
+            }
+        });
+
+        CardView card_memes2 = (CardView) findViewById(R.id.cv_memes2); // creating a CardView and assigning a value.
+
+        card_memes2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Bundle bundle = new Bundle();
+                Intent intent = new Intent(MainActivity.this,EntryActivity.class);
+                bundle.putInt("contpack",6);
+                intent.putExtras(bundle);
+                startActivity(intent);
+                //finish();
+            }
+        });
+
+        CardView card_michis2 = (CardView) findViewById(R.id.cv_michis2); // creating a CardView and assigning a value.
+
+        card_michis2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Bundle bundle = new Bundle();
+                Intent intent = new Intent(MainActivity.this,EntryActivity.class);
+                bundle.putInt("contpack",7);
+                intent.putExtras(bundle);
+                startActivity(intent);
+                //finish();
+            }
+        });
+    }
+
+    private void mostrarNotificacion () {
+        String mensaje = "En esta nueva versión de la tienda hemos agregado nuevos paquetes de stickers y, a su vez, eliminado otros." +"\n\n"
+                + "Paquetes Agregados: " + "\n"
+                + "- Apex Legends\n- Drake & Josh\n- Memes 2\n- Michis 2" +"\n\n"
+                + "Paquetes Eliminados: " + "\n"
+                + "- Lomitos 1";
+        final AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setCancelable(false);
+        builder.setMessage(mensaje);
+        builder.setPositiveButton("Entendido", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.dismiss();
+            }
+        });
+        final AlertDialog dialog = builder.create();
+        dialog.show();
+        SharedPreferences prefs = getSharedPreferences("prefs",MODE_PRIVATE);
+        SharedPreferences.Editor editor = prefs.edit();
+        editor.putBoolean("AlInicio",false);
+        editor.apply();
     }
 }
